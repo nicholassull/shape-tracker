@@ -9,12 +9,14 @@ $(document).ready(function() {
   $('#triangle-checker-form').submit(function(event) {
     event.preventDefault();
     $('#response1').empty();
-    const length1 = $('#length1').val();
-    const length2 = $('#length2').val();
-    const length3 = $('#length3').val();
+    const length1 = parseInt($('#length1').val());
+    const length2 = parseInt($('#length2').val());
+    const length3 = parseInt($('#length3').val());
+    console.log(length1);
+    console.log(length2);
+    console.log(length3);
     const triangle = new Triangle(length1, length2, length3);
     const response = triangle.checkType();
-    console.log(response);
     $('#response1').append("<p>" + response + "</p>");
   });
 
