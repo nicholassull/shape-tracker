@@ -2,21 +2,28 @@
 
 #### By _**Nick Sullivan**_
 
-#### _Short description_
+#### _A simple web application that tells you about shapes._
 
 ## Technologies Used
 
-* __
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _JavaScript_
+* _jQuery_
+* _Node.js_
+* _WebPack_
+* _ESLint_
 
 ## Description
 
-__
+_This very simple web application can be given sides of different shapes and return information about that shape. For example, the lengths of a triangle may be passed in and the application can tell the user if that triangle is scalene, isosceles, or equilateral. The purpose behind this project is to practice building a development environment with Node and using Test Driven Development._
 
 ## Setup Instructions
 
 * _Open your terminal and navigate to the folder you'd like to download the files into._
 * _Run the command below_
-> git clone https://github.com/nicholassull/portfolio-landing
+> git clone https://github.com/nicholassull/shape-tracker
 * _Open index.html_
 
 
@@ -26,7 +33,7 @@ __
 
 ## License
 
-Copyright (c) _10/27/2021_ _by Nick Sullivan_
+Copyright (c) _12/13/2021_ _by Nick Sullivan_
 
 
 _Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:_
