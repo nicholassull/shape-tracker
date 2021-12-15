@@ -5,11 +5,11 @@ describe('Triangle', () => {
 
   beforeEach(() => {
     reusableTriangle = new Triangle(5,5,5);
-  })
+  });
 
   test('should show how beforeEach() works', () => {
     console.log(reusableTriangle);
-  })
+  });
   test('should correctly create a triangle object with three lenghts', () => {
     const triangle = new Triangle(2,4,5);
     expect(triangle.side1).toEqual(2);
